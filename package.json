@@ -1,0 +1,41 @@
+{
+  "name": "docman",
+  "version": "1.0.0",
+  "description": "document management system, complete with roles and privileges. Each document defines access rights; the document defines which roles can access it. Also, each document specifies the date it was published.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-iamao/docman.git"
+  },
+  "keywords": [
+    "document",
+    "management",
+    "system"
+  ],
+  "author": "Inumidun Amao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-iamao/docman/issues"
+  },
+  "homepage": "https://github.com/andela-iamao/docman#readme",
+  "dependencies": {
+    "coveralls": "^2.12.0",
+    "eslint": "^3.17.1",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-coveralls": "^1.1.2",
+    "karma-jasmine": "^1.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.3"
+  }
+}
